@@ -31,17 +31,17 @@
     }
     
     .content{
-        margin: 0 auto;
         max-width: 90%;
     }
     #name{
-        font-size: 1.5rem;
+        margin-top: 10px;
+        font-size: 1rem;
     }
     .papularity-items h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .papularity-items p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .attribution{
         font-size: 1rem;
