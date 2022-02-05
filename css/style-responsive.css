@@ -1,0 +1,50 @@
+@media (max-width:320px){
+    .pic{
+        padding-bottom: 5rem;
+    }
+    #victor{
+        top: 60%;
+    }
+    .papularity{
+        flex-direction: column;
+    }
+    .papularity-items{
+        margin: 0 0 30px 0;
+    }
+    .attribution{
+        margin: 30px 0 30px 0;
+        font-size: 0.5rem;
+        line-height: 1;
+    }
+}
+@media (min-width:320px) and (max-width:750px){
+    
+    .bg-top{
+        width: 30rem;
+        top: -30%;
+        left: -80%;
+    }
+    .bg-bottom{
+        width: 30rem;
+        right: -80%;
+        bottom: -30%;
+    }
+    
+    .content{
+        margin-top: 3rem;
+        max-width: 90%;
+    }
+    #name{
+        font-size: 1.5rem;
+    }
+    .papularity-items h1{
+        font-size: 1.5rem;
+    }
+    .papularity-items p{
+        font-size: 0.9rem;
+    }
+    .attribution{
+        font-size: 1rem;
+        line-height: 1.7;
+    }
+}
