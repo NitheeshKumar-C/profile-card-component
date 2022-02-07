@@ -28,6 +28,7 @@ hr{
     position:absolute;
     min-width: 100%;
     min-height: 100vh;
+    top: 0%;
 }
 .bg-top{
     position: absolute;
@@ -97,8 +98,9 @@ hr{
     margin: 30px;
     line-height: 1.5;
     color: black;
-    font-family: 'Josefin Sans', sans-serif;}
+    font-family: 'Josefin Sans', sans-serif;
+}
 .attribution a{
     color: black;
-    padding-left: 5px;
+    padding-left:5px;
 }
