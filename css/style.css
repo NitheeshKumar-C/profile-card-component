@@ -2,162 +2,102 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
-
+body{
+    background-color: hsl(185, 75%, 39%);
+}
 main{
-    width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
-    font-family: 'Spartan', sans-serif;
-    font-size: 15px;
-    overflow: hidden;
+    flex-direction: column;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(227, 10%, 46%);
+}
+h1{
+    color: hsl(229, 23%, 23%); 
+}
+hr{
+    border: 0;
+    border-top:1px solid hsl(0, 0%, 75%);
 }
 .bg{
     overflow: hidden;
     position:absolute;
     min-width: 100%;
     min-height: 100vh;
-    top: 0;
-    bottom: -5%;
 }
-i{
-    color:  hsl(300, 43%, 22%)  hsl(333, 80%, 67%)
-      hsl(303, 10%, 53%)hsl(300, 24%, 96%)
-    hsl(0, 0%, 100%)
-    
+.bg-top{
+    position: absolute;
+    top:-70%;
+    left: -20%;
 }
-.social-proof{
-    margin-top: 5rem;
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    z-index: 3;
+.bg-bottom{
+    position: absolute;
+    right: -17%;
+    bottom: -70%;
 }
-
-.div1{
-    margin:0 0 3rem 0;
+.content{
+    min-width: 27%;
+    background-color: white;
+    z-index: 1;
+    border-radius: 1rem;
 }
-/* inside div1 */
-.popularity{
-    padding:0 5rem 0 0;
-}
-.heading{
-    font-weight: 700;
-    color: hsl(300, 43%, 22%);
-}
-.sub-heading{
-    color: hsl(303, 10%, 53%);
-    font-weight: 500;
-}
-.rating{
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-.rating-items{
-    width: fit-content;
-}
-.ri1{
-    align-self: flex-start;
-}
-.ri2{
-    align-self: center;
-}
-.ri3{
-    align-self: flex-end;
-}
-.rating-items p{
-    background-color: hsl(300, 24%, 96%);
-    padding: 20px;
-    color: hsl(300, 43%, 22%);
-    font-weight: 700;
-    border-radius: 0.5rem;
-    width: fit-content;
-    padding-right: 40px;
-}
-.stars{
-    margin-right: 25px;
-    margin-left: 20px;
-}
-.star{
-    padding: 2px;
-}
-
-
-/* inside feedback */
-.feedback{
-    justify-content: space-between;
-    margin: 0;
-}
-.feedback-items{
-    background-color: hsl(300, 43%, 22%);
-    color: white;
-    padding: 30px;
-    border-radius: 0.5rem;
-    height: fit-content;
-    min-width: 30%;
-}
-.feedback-items p{
-    color: hsl(0, 0%, 88%);
-    font-weight: 500;
-}
-.fi2{
-    position: relative;
-    top: 1rem;
-}
-.fi3{
-    position: relative;
-    top: 0.3rem;
-}
-.person-details{
-    line-height: 0.5;
-    margin-bottom: 30px;
-}
-.user{
-    padding-top: 5px;
-    margin-left: 60px;
-    line-height: 0.5;
-}
-.person-details h2{
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-.person-details p{
-    font-size: 0.9rem;
-    color: hsla(333, 80%, 67%, 0.5);
-}
-.avator{
-    float: left;
-    width:2.7rem;
-    border-radius: 50%;
-}
-
-.attribution{
-    margin: 6% auto 0 auto;
+.pic{
     text-align: center;
-    color: black;
-    font-weight: 500;
+    position: relative;
+    padding-bottom: 4rem;
 }
+#card{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+#victor{
+    width: 7rem;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 5px;
+}
+.person-info{
+    text-align: center;
+    padding-bottom: 30px;
+}
+#name{
+    font-weight: 700;  
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+#age{
+    padding-left: 5px;
+    color: hsl(227, 10%, 46%);
+    font-weight: normal;
+}
+.papularity{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0 30px 0;
+}
+.papularity-items{
+    text-align: center;
+}
+.papularity-items h1{
+    font-size: 1rem;
+}
+.papularity-items p{
+    font-size: 0.7rem;
+}
+.attribution{
+    /* z-index: 1; */
+    margin: 30px;
+    line-height: 1.5;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;}
 .attribution a{
     color: black;
     padding-left: 5px;
-}
-/* img */
-.bg-img,.bgm-img{
-    position: absolute;
-    z-index: 2;
-}
-.bg-top{
-    left: -7%;
-    top: 0;
-}
-.bg-bottom{
-    bottom: 0;
-    right: 0;
-}
-.bgm-img{
-    display: none;
 }
