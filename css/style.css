@@ -93,6 +93,7 @@ hr{
 }
 .attribution{
     /* z-index: 1; */
+    position: relative;
     margin: 30px;
     line-height: 1.5;
     color: black;
